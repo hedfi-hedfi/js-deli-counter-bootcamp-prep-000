@@ -1,3 +1,3 @@
 function takeANumber(peopleLine, newName) {
-  return `Welcome, ${newName}. You are number ${peopleLine+1} in line.`
+  return `Welcome, ${newName}. You are number ${peopleLine.length+1} in line.`
 }
