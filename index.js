@@ -14,5 +14,5 @@ function currentLine(peopleLine) {
   for (let i = 0; i < peopleLine.length; i++){
     list.push(`${i+1}. ${peopleLine[i]}`)
   }
-  return `The line is currently: ${list.join(',')}.`;
+  return `The line is currently: ${list.join(', ')}.`;
 }
